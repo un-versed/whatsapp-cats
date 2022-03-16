@@ -7,4 +7,18 @@
 This a simple Whatsapp automation that sends random cat pictures when you receive "cat" in all chats and groups.
 
 ---
+## Getting started
+
+### Installing deps
+
+```sh
+make build-deps
+```
+
+### Running
+```sh
+make run
+```
+
+
 WIP.
