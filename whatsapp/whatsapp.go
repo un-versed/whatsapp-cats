@@ -8,6 +8,7 @@ import (
 	"syscall"
 
 	"github.com/mdp/qrterminal"
+	"github.com/un-versed/whatsapp_cats/handlers"
 	"go.mau.fi/whatsmeow"
 	"go.mau.fi/whatsmeow/store/sqlstore"
 	waLog "go.mau.fi/whatsmeow/util/log"
@@ -29,6 +30,7 @@ func Connect() error {
 
 	clientLog := waLog.Stdout("Client", "INFO", true)
 	c := whatsmeow.NewClient(deviceStore, clientLog)
+	handlers.SetHandlers(c)
 
 	if c.Store.ID == nil {
 		qrChan, _ := c.GetQRChannel(context.Background())
