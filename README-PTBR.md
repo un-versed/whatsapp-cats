@@ -6,5 +6,15 @@
 
 Uma simples automação para Whatsapp que envia fotos aleatórias de gatos sempre que você receber a mensagem "gato" em todas suas conversas e grupos.
 
----
-WIP.
+## Começando a usar
+
+### Instalando dependências
+
+```sh
+make build-deps
+```
+
+### Rodando o projeto
+```sh
+make run
+```
