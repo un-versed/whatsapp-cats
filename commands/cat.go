@@ -38,7 +38,14 @@ func CatHandler(evt interface{}, c *whatsmeow.Client) {
 	case *events.Message:
 		msg := strings.ToLower(v.Message.GetConversation())
 
-		if msg == "gato" {
+		switch msg {
+		case "gato":
+			err := SendCatPicture(c, v.Info.Chat)
+			if err != nil {
+				fmt.Println(err.Error())
+			}
+
+		case "cat":
 			err := SendCatPicture(c, v.Info.Chat)
 			if err != nil {
 				fmt.Println(err.Error())
