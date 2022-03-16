@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/un-versed/whatsapp_cats/commands"
+	"github.com/un-versed/whatsapp-cats/commands"
 	"go.mau.fi/whatsmeow"
 )
 

@@ -2,7 +2,7 @@ package main
 
 import (
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/un-versed/whatsapp_cats/whatsapp"
+	"github.com/un-versed/whatsapp-cats/whatsapp"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/un-versed/whatsapp_cats
+module github.com/un-versed/whatsapp-cats
 
 go 1.17
 

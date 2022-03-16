@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/un-versed/whatsapp_cats/utils"
+	"github.com/un-versed/whatsapp-cats/utils"
 	"go.mau.fi/whatsmeow"
 	"go.mau.fi/whatsmeow/types"
 	"go.mau.fi/whatsmeow/types/events"

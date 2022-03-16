@@ -8,7 +8,7 @@ import (
 	"syscall"
 
 	"github.com/mdp/qrterminal"
-	"github.com/un-versed/whatsapp_cats/handlers"
+	"github.com/un-versed/whatsapp-cats/handlers"
 	"go.mau.fi/whatsmeow"
 	"go.mau.fi/whatsmeow/store/sqlstore"
 	waLog "go.mau.fi/whatsmeow/util/log"
