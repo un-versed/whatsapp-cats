@@ -10,4 +10,10 @@ func SetHandlers(c *whatsmeow.Client) {
 	c.AddEventHandler(func(evt interface{}) {
 		commands.CatHandler(evt, c)
 	})
+
+	// Add HelloWorld Handler
+	c.AddEventHandler(func(evt interface{}) {
+		commands.HelloWorldHandler(evt, c)
+	})
+
 }
