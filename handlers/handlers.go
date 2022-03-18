@@ -16,4 +16,8 @@ func SetHandlers(c *whatsmeow.Client) {
 		commands.HelloWorldHandler(evt, c)
 	})
 
+	// Add ShoudIDeployToday Handler
+	c.AddEventHandler(func(evt interface{}) {
+		commands.ShoudIDeployTodayHandler(evt, c)
+	})
 }
