@@ -1,4 +1,4 @@
-# [1.2.0](https://github.com-un-versed/un-versed/whatsapp-cats/compare/v1.0.0...v) (2022-03-18)
+# [](https://github.com-un-versed/un-versed/whatsapp-cats/compare/v1.2.0...v) (2022-03-18)
 
 
 ### Features
