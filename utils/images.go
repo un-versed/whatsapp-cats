@@ -2,10 +2,7 @@ package utils
 
 import (
 	"context"
-	"encoding/json"
 	"io/ioutil"
-	"net/http"
-	"time"
 
 	waProto "go.mau.fi/whatsmeow/binary/proto"
 
@@ -13,8 +10,6 @@ import (
 	"go.mau.fi/whatsmeow/types"
 	"google.golang.org/protobuf/proto"
 )
-
-var httpClient = &http.Client{Timeout: 15 * time.Second}
 
 func GetImageBytes(url string) ([]byte, error) {
 	r, err := httpClient.Get(url)
@@ -30,17 +25,6 @@ func GetImageBytes(url string) ([]byte, error) {
 	defer r.Body.Close()
 
 	return b, err
-}
-
-func GetJson(url string, target interface{}) error {
-	r, err := httpClient.Get(url)
-	if err != nil {
-		return err
-	}
-
-	defer r.Body.Close()
-
-	return json.NewDecoder(r.Body).Decode(target)
 }
 
 func UploadImage(url string, caption string, mimetype string, client *whatsmeow.Client, receiver types.JID) error {

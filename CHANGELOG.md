@@ -1,4 +1,13 @@
-# [](https://github.com-un-versed/un-versed/whatsapp-cats/compare/v1.0.0...v) (2022-03-18)
+# [](https://github.com-un-versed/un-versed/whatsapp-cats/compare/v1.1.0...v) (2022-03-18)
+
+
+### Features
+
+* should i deploy today? command ([2beea03](https://github.com-un-versed/un-versed/whatsapp-cats/commit/2beea03af734844162f516f15480c894eec183ca))
+
+
+
+# [1.1.0](https://github.com-un-versed/un-versed/whatsapp-cats/compare/v1.0.0...v1.1.0) (2022-03-18)
 
 
 ### Features
