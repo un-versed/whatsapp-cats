@@ -1,4 +1,10 @@
-# [](https://github.com-un-versed/un-versed/whatsapp-cats/compare/v1.0.0...v) (2022-03-18)
+# [1.2.0](https://github.com-un-versed/un-versed/whatsapp-cats/compare/v1.0.0...v) (2022-03-18)
+
+
+### Features
+
+* hello world command ([482a66a](https://github.com-un-versed/un-versed/whatsapp-cats/commit/482a66a59a8998ca3b2d3be55855727e65ed8feb))
+* send text utils ([57c4d2d](https://github.com-un-versed/un-versed/whatsapp-cats/commit/57c4d2d7ef588ac8491628cf236ca4553006de29))
 
 
 
