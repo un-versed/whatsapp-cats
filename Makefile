@@ -53,3 +53,15 @@ badge:
 	@go install github.com/jpoles1/gopherbadger/...
 	gopherbadger -md="README.md" -png=false 1>&2 2> /dev/null
 	@if [ -f coverage.out ]; then rm coverage.out ; fi; 
+
+############## commit tools
+install-commitizen:
+	@npm install -g commitizen
+	@npm install -g cz-conventional-changelog
+	@npm install -g conventional-changelog-cli
+
+commit:
+	@git cz
+
+changelog:
+	@conventional-changelog -p angular -i CHANGELOG.md -s -r 0
